@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dda0dd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textSize="30dp"
+        android:background="#fff000"
+        android:id="@+id/tview"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/tview"
+        android:background="#fff"
+        android:id="@+id/editemail">
+    </EditText>
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editemail"
+        android:background="#fff"
+        android:id="@+id/editpass">
+    </EditText>
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editpass"
+        android:background="#fff"
+        android:id="@+id/editnam">
+
+    </EditText>
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Mobile"
+        android:inputType="number"
+        android:layout_below="@+id/editnam"
+        android:background="#fff"
+        android:id="@+id/editmob">
+    </EditText>
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Address"
+        android:inputType="textPostalAddress"
+        android:layout_below="@+id/editmob"
+        android:background="#fff"
+        android:id="@+id/editaddr">
+    </EditText>
+
+    <Button
+        android:layout_below="@id/editaddr"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Register"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/btnregister"
+        />
+
+</RelativeLayout>

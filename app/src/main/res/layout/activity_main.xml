@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+    android:background="#dda0dd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="30dp"
+        android:background="#fff000"
+        android:id="@+id/tview"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/tview"
+        android:background="#fff"
+        android:id="@+id/editemail">
+    </EditText>
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editemail"
+        android:background="#fff"
+        android:id="@+id/editpass">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Login"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/btnlogin"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:hint="Register Here"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="register"
+        />
+</RelativeLayout>
